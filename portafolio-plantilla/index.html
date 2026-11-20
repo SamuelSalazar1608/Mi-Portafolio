@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ✏️ EDITA: tu nombre y tu rol, así aparece en la pestaña del navegador -->
+  <title>Tu Nombre | Desarrollo de software</title>
+  <meta name="description" content="Portafolio de Tu Nombre: proyectos de desarrollo de software.">
+
+  <!-- Fuentes de Google Fonts. Puedes cambiarlas en fonts.google.com -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== MENÚ ===================== -->
+  <header class="menu">
+    <a href="#inicio" class="logo">SSA</a> <!-- ✏️ EDITA: tus iniciales -->
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== PORTADA ===================== -->
+    <section id="inicio" class="portada">
+      <p class="saludo">Hola, soy</p>
+      <h1>Samuel Salazar Alzate</h1> <!-- ✏️ EDITA -->
+      <!-- ✏️ EDITA: una frase que diga qué haces y qué te gusta construir -->
+      <p class="rol">Desarrollo aplicaciones web con React y Node.js. Me gusta convertir problemas reales en software que la gente usa.</p>
+      <div class="botones">
+        <a href="#proyectos" class="boton">Ver mis proyectos</a>
+        <!-- ✏️ EDITA: pon tu hoja de vida en PDF en la carpeta y cambia el nombre -->
+        <a href="hoja-de-vida.pdf" class="boton boton-secundario" target="_blank">Descargar hoja de vida</a>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE MÍ ===================== -->
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <!-- ✏️ EDITA: 3 o 4 líneas. Quién eres, qué estudias, qué te motiva y qué buscas -->
+      <p>Soy aprendiz de Análisis y Desarrollo de Software en el SENA. He trabajado en equipo en proyectos con frontend, backend y bases de datos, usando Git y GitHub como en una empresa. Busco mi etapa práctica en un equipo donde pueda aportar y seguir aprendiendo.</p>
+    </section>
+
+    <!-- ===================== PROYECTOS ===================== -->
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="proyectos">
+
+        <!-- ---------- PROYECTO 1 (copia todo este <article> para agregar otro) ---------- -->
+        <article class="proyecto">
+          <div class="carrusel">
+            <!-- ✏️ EDITA: pon tus pantallazos en la carpeta img y cambia los nombres -->
+            <img src="img/proyecto1-1.svg" alt="Pantalla de inicio del proyecto 1" class="activa">
+            <img src="img/proyecto1-2.svg" alt="Pantalla 2 del proyecto 1">
+            <img src="img/proyecto1-3.svg" alt="Pantalla 3 del proyecto 1">
+            <button class="flecha anterior" aria-label="Imagen anterior">‹</button>
+            <button class="flecha siguiente" aria-label="Imagen siguiente">›</button>
+          </div>
+          <div class="info">
+            <h3>Nombre del proyecto</h3> <!-- ✏️ EDITA -->
+            <!-- ✏️ EDITA: problema → solución → qué hiciste tú -->
+            <p><strong>Problema:</strong> qué necesidad real resuelve y para quién.</p>
+            <p><strong>Solución:</strong> qué hace la aplicación, en una o dos frases.</p>
+            <p><strong>Mi parte:</strong> qué construiste tú (pantallas, módulos, API).</p>
+            <ul class="etiquetas">
+              <li>React</li><li>Node.js</li><li>MySQL</li> <!-- ✏️ EDITA -->
+            </ul>
+            <div class="enlaces">
+              <a href="https://github.com/USUARIO/REPOSITORIO" target="_blank">Código</a> <!-- ✏️ EDITA -->
+              <a href="#" target="_blank">Ver demo</a> <!-- ✏️ EDITA o borra si no tiene demo -->
+            </div>
+          </div>
+        </article>
+
+        <!-- ---------- PROYECTO 2 ---------- -->
+        <article class="proyecto">
+          <div class="carrusel">
+            <img src="img/proyecto2-1.svg" alt="Pantalla de inicio del proyecto 2" class="activa">
+            <img src="img/proyecto2-2.svg" alt="Pantalla 2 del proyecto 2">
+            <img src="img/proyecto2-3.svg" alt="Pantalla 3 del proyecto 2">
+            <button class="flecha anterior" aria-label="Imagen anterior">‹</button>
+            <button class="flecha siguiente" aria-label="Imagen siguiente">›</button>
+          </div>
+          <div class="info">
+            <h3>Otro proyecto</h3>
+            <p><strong>Problema:</strong> por ejemplo, un ejercicio de clase que resolviste bien.</p>
+            <p><strong>Solución:</strong> qué hace.</p>
+            <p><strong>Mi parte:</strong> qué aprendiste o construiste.</p>
+            <ul class="etiquetas"><li>Python</li><li>Git</li></ul>
+            <div class="enlaces">
+              <a href="https://github.com/USUARIO/REPOSITORIO" target="_blank">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ---------- PROYECTO 3 ---------- -->
+        <article class="proyecto">
+          <div class="carrusel">
+            <img src="img/proyecto3-1.svg" alt="Pantalla de inicio del proyecto 3" class="activa">
+            <img src="img/proyecto3-2.svg" alt="Pantalla 2 del proyecto 3">
+            <img src="img/proyecto3-3.svg" alt="Pantalla 3 del proyecto 3">
+            <button class="flecha anterior" aria-label="Imagen anterior">‹</button>
+            <button class="flecha siguiente" aria-label="Imagen siguiente">›</button>
+          </div>
+          <div class="info">
+            <h3>Este portafolio</h3>
+            <p><strong>Problema:</strong> necesitaba mostrar mi trabajo en un solo enlace.</p>
+            <p><strong>Solución:</strong> un sitio publicado con GitHub Pages.</p>
+            <p><strong>Mi parte:</strong> lo personalicé y lo publiqué con Git.</p>
+            <ul class="etiquetas"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <div class="enlaces">
+              <a href="https://github.com/USUARIO/USUARIO.github.io" target="_blank">Código</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===================== HABILIDADES ===================== -->
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <!-- ✏️ EDITA: solo lo que de verdad sabes usar y puedes explicar -->
+      <div class="grupo">
+        <h3>Lo que uso</h3>
+        <ul class="etiquetas grandes">
+          <li>JavaScript</li><li>React</li><li>Node.js</li><li>Python</li><li>MySQL</li><li>Git y GitHub</li>
+        </ul>
+      </div>
+      <div class="grupo">
+        <h3>Cómo trabajo</h3>
+        <ul class="etiquetas grandes">
+          <li>Trabajo en equipo</li><li>Kanban</li><li>Pull Requests</li><li>Aprendo rápido</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>¿Tienes una vacante de práctica o un proyecto? Escríbeme.</p>
+      <div class="enlaces contacto">
+        <a href="mailto:tucorreo@ejemplo.com">Correo</a> <!-- ✏️ EDITA -->
+        <a href="https://www.linkedin.com/in/TU-PERFIL" target="_blank">LinkedIn</a> <!-- ✏️ EDITA -->
+        <a href="https://github.com/SamuelSalazar1608" target="_blank">GitHub</a> <!-- ✏️ EDITA -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="anio"></span> Samuel Salazar Alzate · Hecho con HTML, CSS y JavaScript</p> <!-- ✏️ EDITA -->
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
